@@ -11,7 +11,6 @@ tar -xvf latest.tar.gz
 sudo apt-get -y install build-essential qt5-qmake qtdeclarative5-dev qt5-default qttools5-dev-tools libjack-jackd2-dev
 
 sudo apt-get -y install qjackctl
-sudo apt-get install linux-lowlatency
 
 cd jamulus-latest
 qmake "CONFIG+=noupcasename" Jamulus.pro
